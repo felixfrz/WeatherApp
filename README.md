@@ -1,3 +1,3 @@
 # WeatherApp
  Weather Web Application..........
- check weather of any Country and City in this App.
+ Check weather of any Country and City in this App.

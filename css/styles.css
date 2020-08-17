@@ -15,3 +15,9 @@ body{
     width: 100px;
     margin-bottom: -50px;
 }
+ hr.class-3 { 
+            border-top: 2px dashed #8c8b8b; 
+        } 
+footer{
+    max-width: 400px;
+}
