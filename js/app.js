@@ -3,6 +3,8 @@ const card = document.querySelector(".card");
 const details = document.querySelector(".details");
 const time = document.querySelector(".time");
 const icon = document.querySelector(".icon img");
+const hr = document.querySelector("hr");
+const footer = document.querySelector("footer");
 const updateUI = (data) => {
   console.log(data);
   // const cityDets = data.cityDets;
@@ -38,6 +40,12 @@ const updateUI = (data) => {
 
   if (card.classList.contains("d-none")) {
     card.classList.remove("d-none");
+  }
+  if (hr.classList.contains("d-none")) {
+    hr.classList.remove("d-none");
+  }
+  if (footer.classList.contains("d-none")) {
+    footer.classList.remove("d-none");
   }
 };
 
