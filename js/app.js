@@ -56,6 +56,8 @@ const updateCity = async (city) => {
   return { cityDets, weather };
 };
 
+
+
 cityForm.addEventListener("submit", (e) => {
   // prevent default action
   e.preventDefault();
